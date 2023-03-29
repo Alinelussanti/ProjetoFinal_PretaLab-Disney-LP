@@ -5,29 +5,30 @@ function somar() {
 
   /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
   Em seguida, ao invés de mostrar o numero 10, mostre o resultado da operação */
+
+  const soma = numero1 + numero2;
   
   
   
   
-  
-  
-  document.getElementById("resultadoSoma").innerHTML = 10;
+  document.getElementById("resultadoSoma").innerHTML = soma;
 }
+
 
 function subtrair() {
   const numero1 = parseFloat(document.getElementById("numero1Sub").value);
   const numero2 = parseFloat(document.getElementById("numero2Sub").value);
   // evite mexer no código acima!
 
-  /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
+  /* use as constantes numero 1 e numero 2 e realize a subtração entre elas.
    Em seguida, ao invés de mostrar o numero 9, mostre o resultado da operação */
+
+   const subtrair = numero1 - numero2
   
   
   
   
-  
-  
-  document.getElementById("resultadoSub").innerHTML = 9;
+  document.getElementById("resultadoSub").innerHTML = subtrair;
 }
 
 function multiplicar() {
@@ -35,13 +36,13 @@ function multiplicar() {
   const numero2 = parseFloat(document.getElementById("numero2Mult").value);
   // evite mexer no código acima!
 
-  /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
+  /* use as constantes numero 1 e numero 2 e realize a multipliação entre elas.
    Em seguida, ao invés de mostrar o numero 5, mostre o resultado da operação */
   
+   const multiplicacao = numero1 * numero2
   
   
-  
-  document.getElementById("resultadoMult").innerHTML = 5;
+  document.getElementById("resultadoMult").innerHTML = multiplicacao;
 }
 
 function dividir() {
@@ -53,8 +54,9 @@ function dividir() {
    Em seguida, ao invés de mostrar o numero -89, mostre o resultado da operação */
   
   
+  const divisao = numero1 / numero2
   
   
-  
-  document.getElementById("resultadoDiv").innerHTML = -89;
+  document.getElementById("resultadoDiv").innerHTML = divisao ;
 }
+              
